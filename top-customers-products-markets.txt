@@ -1,7 +1,5 @@
 2) Top Customers, Products, Markets
 
-
-
 -- Include pre-invoice deductions in Croma detailed report
 	SELECT 
     	   s.date, 
