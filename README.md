@@ -4,7 +4,6 @@
 This database provides a unified system for **sales and financial analytics**, integrating data from customers, products, markets, costs, and sales. It offers optimized reporting through **pre-computed views, stored procedures, and window functions** to track performance and generate insights efficiently.  
 
 ## **Schema Overview**  
-
 ### **Fact Tables**  
 - **fact_sales_monthly**: Monthly sales data by product and customer.  
 - **fact_gross_price**: Product prices by fiscal year.  
@@ -19,7 +18,6 @@ This database provides a unified system for **sales and financial analytics**, i
 - **dim_date**: Calendar and fiscal year data for time-based joins.
 
 ## **Business requirements & Use Cases**  
-
 1. **Sales Analytics**  
    - **Top Markets & Customers**: Identify top-performing markets and customers by net sales.  
    - **Product Performance**: Fetch top products per division by sales quantity.  
@@ -44,7 +42,6 @@ This database provides a unified system for **sales and financial analytics**, i
 - **Regional Sales Share**: Analyze customer-wise sales contribution by region.
 
 ### **Use Cases**
-
 1. **Sales Performance Monitoring**: Track sales metrics to identify high-performing markets.
 2. **Customer Insights**: Analyze purchasing behavior for targeted marketing.
 3. **Product Performance Analysis**: Evaluate product trends for better inventory management.
@@ -53,10 +50,18 @@ This database provides a unified system for **sales and financial analytics**, i
 7. **Market Analysis**: Assess trends to identify growth opportunities.
 
 ### **Outcome**
-
 1. Enhanced visibility into sales and costs for better strategic choices.
 2. Streamlined reporting and processes for time and cost savings.
 
+
+## **Future Scope**  
+1. **Machine Learning Integration**: Implement predictive analytics for improved sales forecasting and customer behavior analysis.
+2. **Real-Time Data Processing**: Utilize streaming technologies for real-time insights and quicker decision-making.
+3. **Enhanced Visualization**: Develop advanced dashboards and reporting tools for better data representation and accessibility.
+4. **User Training and Documentation**: Provide comprehensive training materials and documentation to help users fully leverage the database capabilities.
+
+## **Conclusion**  
+The Finance and Sales Analytics Database provides a comprehensive solution for tracking and analyzing sales and financial performance. By integrating key data from various sources, it empowers businesses to make informed decisions, optimize operations, and enhance overall profitability. The use of advanced analytics, pre-computed views, and stored procedures streamlines reporting, allowing stakeholders to focus on strategic initiatives.
 
 ## **Usage Instructions**
 1. **Clone the repository:**
