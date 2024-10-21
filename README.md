@@ -57,6 +57,7 @@ This database provides a unified system for **sales and financial analytics**, i
 
 ## **Contributors and Maintainers**
 **Project Maintainer**: Simarpreet Chawla (simarchawla767@gmail.com)
+
 **Contributors**: Open for contributions! Feel free to submit pull requests or open issues for discussions on improvements.
 
 
