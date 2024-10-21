@@ -50,11 +50,14 @@ This database provides a unified system for **sales and financial analytics**, i
 - **Cumulative Expense Tracking**: Monitor total expenses over time.  
 - **Regional Sales Share**: Analyze customer-wise sales contribution by region.
 
-
 ## **Usage Instructions**
 1. **Clone the repository:**
 2. **Set up the database:**
 3. **Execute SQL Queries:**
+
+## **Contributors and Maintainers**
+**Project Maintainer**: Simarpreet Chawla (simarchawla767@gmail.com)
+**Contributors**: Open for contributions! Feel free to submit pull requests or open issues for discussions on improvements.
 
 
 
