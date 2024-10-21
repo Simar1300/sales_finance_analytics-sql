@@ -1,4 +1,4 @@
-Finance and Sales Analytics Database**  
+**Finance and Sales Analytics Database**  
 
 ## Overview  
 This database provides a unified system for **sales and financial analytics**, integrating data from customers, products, markets, costs, and sales. It offers optimized reporting through **pre-computed views, stored procedures, and window functions** to track performance and generate insights efficiently.  
