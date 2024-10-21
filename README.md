@@ -18,7 +18,7 @@ This database provides a unified system for **sales and financial analytics**, i
 - **dim_product**: Product and variant details.  
 - **dim_date**: Calendar and fiscal year data for time-based joins.
 
-## **Key Modules & Use Cases**  
+## **Business requirements & Use Cases**  
 
 1. **Sales Analytics**  
    - **Top Markets & Customers**: Identify top-performing markets and customers by net sales.  
