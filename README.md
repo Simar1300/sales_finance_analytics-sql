@@ -3,7 +3,6 @@
 ## Overview  
 This database provides a unified system for **sales and financial analytics**, integrating data from customers, products, markets, costs, and sales. It offers optimized reporting through **pre-computed views, stored procedures, and window functions** to track performance and generate insights efficiently.  
 
-
 ## **Schema Overview**  
 
 ### **Fact Tables**  
@@ -14,12 +13,10 @@ This database provides a unified system for **sales and financial analytics**, i
 - **fact_freight_cost**: Freight and shipping costs.  
 - **fact_manufacturing_cost**: Product manufacturing costs.  
 - **fact_forecast_monthly**: Sales forecasts.
-
 ### **Dimension Tables**  
 - **dim_customer**: Customer details (market, region).  
 - **dim_product**: Product and variant details.  
 - **dim_date**: Calendar and fiscal year data for time-based joins.
-
 
 ## **Key Modules & Use Cases**  
 
@@ -27,28 +24,39 @@ This database provides a unified system for **sales and financial analytics**, i
    - **Top Markets & Customers**: Identify top-performing markets and customers by net sales.  
    - **Product Performance**: Fetch top products per division by sales quantity.  
    - **Net Sales Reporting**: Use views (e.g., `net_sales`) to generate reports with all deductions applied.  
-
 2. **Finance Analytics**  
    - **Cost Analysis**: Track freight, manufacturing, and operational expenses using relevant fact tables.  
    - **Expense Distribution**: Calculate the percentage contribution of expenses by category or region.  
-
 
 ## **Performance Optimizations**  
 - **Avoided Function Calls**: Replaced `get_fiscal_year()` with direct joins on `dim_date`.  
 - **Fiscal Year in Sales Table**: Added `fiscal_year` to **fact_sales_monthly** to reduce unnecessary joins.  
 - **Pre-computed Views**: Used views like `sales_preinv_discount` and `sales_postinv_discount` to streamline reporting.
 
-
 ## **Stored Procedures**  
 - **`get_top_n_markets_by_net_sales`**: Fetches top N markets by net sales for a given year.  
 - **`get_top_n_customers_by_net_sales`**: Identifies top N customers by market and fiscal year.  
 - **`get_top_n_products_per_division_by_qty_sold`**: Retrieves top N products from each division by quantity sold.
 
-
 ## **Advanced Analytics Using Window Functions**  
 - **Expense Share Analysis**: Calculate each expense’s contribution to the total.  
 - **Cumulative Expense Tracking**: Monitor total expenses over time.  
 - **Regional Sales Share**: Analyze customer-wise sales contribution by region.
+
+### **Use Cases**
+
+1. **Sales Performance Monitoring**: Track sales metrics to identify high-performing markets.
+2. **Customer Insights**: Analyze purchasing behavior for targeted marketing.
+3. **Product Performance Analysis**: Evaluate product trends for better inventory management.
+4. **Cost Management**: Monitor costs to identify savings opportunities.
+6. **Expense Distribution Analysis**: Analyze expenses by category for better budget management.
+7. **Market Analysis**: Assess trends to identify growth opportunities.
+
+### **Outcome**
+
+1. Enhanced visibility into sales and costs for better strategic choices.
+2. Streamlined reporting and processes for time and cost savings.
+
 
 ## **Usage Instructions**
 1. **Clone the repository:**
