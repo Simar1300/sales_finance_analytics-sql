@@ -64,9 +64,9 @@ This database provides a unified system for **sales and financial analytics**, i
 The Finance and Sales Analytics Database provides a comprehensive solution for tracking and analyzing sales and financial performance. By integrating key data from various sources, it empowers businesses to make informed decisions, optimize operations, and enhance overall profitability. The use of advanced analytics, pre-computed views, and stored procedures streamlines reporting, allowing stakeholders to focus on strategic initiatives.
 
 ## **Usage Instructions**
-1. **Clone the repository:**
-2. **Set up the database:**
-3. **Execute SQL Queries:**
+1. **Clone the repository**
+2. **Set up the database**
+3. **Execute SQL Queries**
 
 ## **Contributors and Maintainers**
 **Project Maintainer**: Simarpreet Chawla (simarchawla767@gmail.com)
